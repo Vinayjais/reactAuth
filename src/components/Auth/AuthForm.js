@@ -22,12 +22,12 @@ const AuthForm = () => {
          setLoading(true)
          let url;
       if(isLogin){
-           url ='https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBcHEQvELVkzD5YtZTewrLIlnhJOsKDEHo';
+           url ='https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=';
 
           
       }
       else{
-          url ='https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBcHEQvELVkzD5YtZTewrLIlnhJOsKDEHo';
+          url ='https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=';
           
          
   }
